@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.Build.NoTargets/1.0.26">
+
+	<PropertyGroup>
+		<AssemblyName>Digitalroot.Craftopia.Common.References</AssemblyName>
+		<TargetFrameworks>net462</TargetFrameworks>
+		<LangVersion>9</LangVersion>
+		<PackageId>Digitalroot.Craftopia.Common.References</PackageId>
+		<RootNamespace>Digitalroot.Craftopia.Common.References</RootNamespace>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeBuildOutput>false</IncludeBuildOutput>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+		<Copyright>Copyright © Digitalroot Technologies 2021 - 2022</Copyright>
+		<PackageProjectUrl>https://github.com/Digitalroot-Craftopia/Digitalroot.Craftopia.Common.References</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Digitalroot-Craftopia/Digitalroot.Craftopia.Common.References</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageIconUrl />
+		<PackageTags>craftopia, digitalroot, references</PackageTags>
+		<Authors>Digitalroot</Authors>
+		<Company>Digitalroot Technologies</Company>
+		<Product>Digitalroot Craftopia References</Product>
+		<Description>References for Craftopia</Description>
+		<PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<Version>20220714.1500.1</Version>
+		<RestoreAdditionalProjectSources>
+			https://api.nuget.org/v3/index.json;
+			https://nuget.bepinex.dev/v3/index.json;
+			https://digitalroot-valheim-nuget.s3.us-west-2.amazonaws.com/index.json
+		</RestoreAdditionalProjectSources>
+		<IsPublishable>False</IsPublishable>
+		<DebugType>none</DebugType>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net462|AnyCPU'">
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="lib\*.dll">
+			<Pack>True</Pack>
+			<PackagePath>ref\net462</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
