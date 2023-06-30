@@ -3,14 +3,14 @@
 	<PropertyGroup>
 		<AssemblyName>Digitalroot.Craftopia.Common.References</AssemblyName>
 		<TargetFrameworks>net462</TargetFrameworks>
-		<LangVersion>9</LangVersion>
+		<LangVersion>10</LangVersion>
 		<PackageId>Digitalroot.Craftopia.Common.References</PackageId>
 		<RootNamespace>Digitalroot.Craftopia.Common.References</RootNamespace>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<IncludeBuildOutput>false</IncludeBuildOutput>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
-		<Copyright>Copyright © Digitalroot Technologies 2021 - 2022</Copyright>
+		<Copyright>Copyright © Digitalroot Technologies 2021 - 2023</Copyright>
 		<PackageProjectUrl>https://github.com/Digitalroot-Craftopia/Digitalroot.Craftopia.Common.References</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Digitalroot-Craftopia/Digitalroot.Craftopia.Common.References</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
@@ -22,7 +22,7 @@
 		<Description>References for Craftopia</Description>
 		<PackageReleaseNotes>Initial Release</PackageReleaseNotes>
 		<NeutralLanguage>en-US</NeutralLanguage>
-		<Version>20220714.1500.1</Version>
+		<Version>20230630.0220.0</Version>
 		<RestoreAdditionalProjectSources>
 			https://api.nuget.org/v3/index.json;
 			https://nuget.bepinex.dev/v3/index.json;
